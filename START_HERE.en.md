@@ -1,6 +1,6 @@
 # Start Here: Build Your First Credible Tutorial Video in 10 Minutes
 
-Languages: [简体中文](START_HERE.zh-CN.md) · [English](START_HERE.en.md)
+Languages: [Chinese](START_HERE.zh-CN.md) · [English](START_HERE.en.md)
 
 Goal: do not start from "make a flashy AI video." Start from "prove one real workflow."
 
@@ -43,6 +43,6 @@ Goal: do not start from "make a flashy AI video." Start from "prove one real wor
 
 ## Next
 
-- [Lesson 01](lessons/lesson-01-proof-driven-30s-video/README.md)
-- [Lesson 02](lessons/lesson-02-subtitles-and-srt/README.md)
-- [Lesson 05](lessons/lesson-05-publish-pack/README.md)
+- [Lesson 01](lessons/lesson-01-proof-driven-30s-video/README.en.md)
+- [Lesson 02](lessons/lesson-02-subtitles-and-srt/README.en.md)
+- [Lesson 05](lessons/lesson-05-publish-pack/README.en.md)

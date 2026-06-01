@@ -1,10 +1,6 @@
 # Release Readiness
 
-Languages: [简体中文](#简体中文) · [English](#english)
-
-<a id="简体中文"></a>
-
-## 简体中文
+语言：[简体中文](release-readiness.md) · [English](release-readiness.en.md)
 
 当前版本：`v0.1 public preview`
 
@@ -43,33 +39,3 @@ Languages: [简体中文](#简体中文) · [English](#english)
 2. 给 README 增加 30-60 秒演示。
 3. 给 Lesson 02-05 补配套示例。
 4. 建立案例提交和审稿节奏。
-
-<a id="english"></a>
-
-## English
-
-Current version: `v0.1 public preview`
-
-## Done
-
-- Bilingual README.
-- Start Here pages.
-- Lesson 01-05 structure.
-- Minimal runnable HyperFrames example for Lesson 01.
-- Public-safety scan.
-- Public-language check.
-- Issue and PR templates.
-- Contribution, governance, and review guidance.
-
-## Not Done Yet
-
-- Public video proof chain.
-- README hero GIF or short video.
-- 8-12 real cases.
-- Runnable examples for every lesson.
-- Learner assignment and submission flow.
-- Real publishing-pack samples.
-
-## Status
-
-This is ready for public preview and external case requests. It is not yet a complete course or production template library.

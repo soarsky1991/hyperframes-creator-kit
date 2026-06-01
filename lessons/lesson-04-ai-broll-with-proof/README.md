@@ -1,10 +1,6 @@
 # Lesson 04: AI B-roll 不能替代真实证据
 
-Languages: [简体中文](#简体中文) · [English](#english)
-
-<a id="简体中文"></a>
-
-## 简体中文
+语言：[简体中文](README.md) · [English](README.en.md)
 
 目标：使用 Seedance、GPT Image 或其他 AI 视觉素材时，保持教程可信。
 
@@ -40,24 +36,3 @@ Languages: [简体中文](#简体中文) · [English](#english)
 ## 为什么重要
 
 现在 AI 视频很多，可信边界本身就是差异化。这个 lesson 的重点是：**别让 AI B-roll 毁掉教程信任。**
-
-<a id="english"></a>
-
-## English
-
-Goal: keep tutorials credible when using Seedance, GPT Image, or other AI-generated visuals.
-
-## Rule
-
-AI B-roll can explain, compare, or transition. It must not replace real workflow proof.
-
-## Acceptance Checklist
-
-- AI shots explain, transition, or compare.
-- AI shots do not pretend to be real operations.
-- AI-generated visuals are labeled when needed.
-- Real results use screen recordings, screenshots, or outputs.
-
-## Why It Matters
-
-AI video is everywhere. Trust boundaries are the differentiator: do not let AI B-roll destroy tutorial credibility.

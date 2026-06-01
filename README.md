@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="#zh-cn">简体中文</a> · <a href="#english">English</a>
+  <a href="README.md">简体中文</a> · <a href="README.en.md">English</a>
 </p>
 
 <p align="center">
@@ -15,10 +15,6 @@
   <img alt="Status" src="https://img.shields.io/badge/status-v0.1_public_preview-f59e0b.svg">
   <img alt="Language" src="https://img.shields.io/badge/language-ZH_first%20%2B%20EN-10b981.svg">
 </p>
-
-<a id="zh-cn"></a>
-
-## 简体中文
 
 **用 HyperFrames、真实录屏和 agent skills，把一次技术操作做成可信、可复现、可发布的教程视频。**
 
@@ -76,50 +72,3 @@ Start with lessons/lesson-01-proof-driven-30s-video/README.md.
 - 可公开的录屏、截图和检查输出。
 - README 首屏演示 GIF 或短视频。
 - 更多课程配套示例和学习者作业入口。
-
-<a id="english"></a>
-
-## English
-
-**A proof-first workflow for turning real technical operations into HyperFrames tutorial videos.**
-
-This repository focuses on credible tutorial production: real workflow evidence, validation output, subtitles, review checklists, and publish-ready handoff materials. It includes lessons, templates, quality gates, and a minimal runnable HyperFrames example.
-
-Start with:
-
-- [START_HERE.zh-CN.md](START_HERE.zh-CN.md)
-- [START_HERE.en.md](START_HERE.en.md)
-- [examples/lesson-01-proof-driven-30s-video](examples/lesson-01-proof-driven-30s-video)
-- [docs/public-communications.md](docs/public-communications.md)
-- [docs/release-readiness.md](docs/release-readiness.md)
-- [docs/i18n-roadmap.md](docs/i18n-roadmap.md)
-- [skills/hyperframes-creator-kit/SKILL.md](skills/hyperframes-creator-kit/SKILL.md)
-
-### Lesson Map
-
-| Lesson | What you build | Value | Status |
-|---|---|---|---|
-| [01](lessons/lesson-01-proof-driven-30s-video/README.md) | A 30-second tutorial from real screen evidence | Proof-first workflow | Walkthrough ready |
-| [02](lessons/lesson-02-subtitles-and-srt/README.md) | Burned-in captions plus SRT handoff | Accessibility and reuse | Draft |
-| [03](lessons/lesson-03-audio-motion/README.md) | BGM, SFX, and motion cards without hiding narration | Better viewing experience | Draft |
-| [04](lessons/lesson-04-ai-broll-with-proof/README.md) | AI B-roll that explains but does not fake proof | Trust boundary | Draft |
-| [05](lessons/lesson-05-publish-pack/README.md) | Cover, title, SRT, copy, and risk review | Publish preparation | Draft |
-
-### Quick Check
-
-```bash
-git clone https://github.com/soarsky1991/hyperframes-creator-kit.git
-cd hyperframes-creator-kit
-npm run check
-```
-
-Run the minimal HyperFrames example:
-
-```bash
-cd examples/lesson-01-proof-driven-30s-video
-npm run check
-```
-
-Status: `v0.1 public preview`, not a finished full course.
-
-Licenses: code, scripts, examples, templates, and skills use Apache-2.0; docs and curriculum text use CC BY 4.0.

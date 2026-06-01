@@ -4,30 +4,28 @@ Use this when turning HyperFrames Creator Kit into a standalone public repositor
 
 ## README Skeleton
 
+`README.md`:
+
 ````markdown
 # HyperFrames Creator Kit
 
 <p align="center">
-Languages: <a href="#zh-cn">简体中文</a> · <a href="#english">English</a>
+  <a href="README.md">简体中文</a> · <a href="README.en.md">English</a>
 </p>
 
 [![Code license: Apache-2.0](https://img.shields.io/badge/code-Apache--2.0-blue.svg)](LICENSE)
 [![Docs license: CC BY 4.0](https://img.shields.io/badge/docs-CC--BY--4.0-lightgrey.svg)](LICENSE-docs)
 [![HyperFrames](https://img.shields.io/badge/HyperFrames-video-blue)](https://hyperframes.heygen.com/introduction)
 
-<a id="zh-cn"></a>
-
-## 简体中文
-
 一句话：用 HyperFrames、真实录屏和 agent skills，把技术流程做成可复现、可发布、可收藏的 AI 教程视频。
 
-### 你能做什么
+## 你能做什么
 
 - 把一次真实操作录屏变成 30-90 秒教程视频。
 - 自动生成字幕、步骤卡、动效提示和发布包。
 - 用质量审稿流程检查证据、版权、平台风险和可教学性。
 
-### 5 分钟开始
+## 5 分钟开始
 
 ```bash
 git clone https://github.com/<owner>/hyperframes-creator-kit.git
@@ -35,6 +33,22 @@ cd hyperframes-creator-kit/lessons/01-real-screen-recording-to-tutorial-video
 npm install
 npm run check
 ```
+````
+
+`README.en.md`:
+
+````markdown
+# HyperFrames Creator Kit
+
+<p align="center">
+  <a href="README.md">简体中文</a> · <a href="README.en.md">English</a>
+</p>
+
+[![Code license: Apache-2.0](https://img.shields.io/badge/code-Apache--2.0-blue.svg)](LICENSE)
+[![Docs license: CC BY 4.0](https://img.shields.io/badge/docs-CC--BY--4.0-lightgrey.svg)](LICENSE-docs)
+[![HyperFrames](https://img.shields.io/badge/HyperFrames-video-blue)](https://hyperframes.heygen.com/introduction)
+
+One line: use HyperFrames, real screen recordings, and agent skills to make reproducible AI tutorial videos.
 
 ### Lessons
 
@@ -56,12 +70,6 @@ Good first contributions:
 - Add a small HyperFrames lesson.
 - Report a render/check failure with a minimal example.
 - Improve a subtitle style or motion card pattern.
-
-<a id="english"></a>
-
-## English
-
-One line: use HyperFrames, real screen recordings, and agent skills to make reproducible AI tutorial videos.
 ````
 
 ## Folder Plan

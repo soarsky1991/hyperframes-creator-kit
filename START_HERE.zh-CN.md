@@ -1,6 +1,6 @@
 # Start Here: 10 分钟做出第一个可信教程视频
 
-Languages: [简体中文](START_HERE.zh-CN.md) · [English](START_HERE.en.md)
+语言：[简体中文](START_HERE.zh-CN.md) · [English](START_HERE.en.md)
 
 目标：不要从“做炫酷视频”开始，而是从“证明一个真实操作”开始。
 

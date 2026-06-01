@@ -1,10 +1,6 @@
 # Lesson 05: 发布包、封面和风险审稿
 
-Languages: [简体中文](#简体中文) · [English](#english)
-
-<a id="简体中文"></a>
-
-## 简体中文
+语言：[简体中文](README.md) · [English](README.en.md)
 
 目标：把一个 HyperFrames 教程视频变成可以人工发布的 package。
 
@@ -48,35 +44,3 @@ publish-pack/
 ## 为什么重要
 
 发布包让 repo 从“教程仓库”变成“创作者工作台”。这比单纯代码示例更容易被内容创作者收藏。
-
-<a id="english"></a>
-
-## English
-
-Goal: turn a HyperFrames tutorial video into a human-reviewed publishing package.
-
-## Publishing Pack
-
-```text
-publish-pack/
-  title.md
-  cover.md
-  body.md
-  comments.md
-  subtitles/
-  risk-review.md
-```
-
-## Risk Review
-
-Check:
-
-- No keys, accounts, QR codes, notifications, or payment pages.
-- No unauthorized media.
-- No exaggerated promise.
-- AI-generated content is labeled when needed.
-- The publish copy fits the target platform.
-
-## Why It Matters
-
-A publishing pack turns this from a tutorial repo into a creator workbench.

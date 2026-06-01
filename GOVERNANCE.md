@@ -1,10 +1,6 @@
 # Governance
 
-Languages: [简体中文](#简体中文) · [English](#english)
-
-<a id="简体中文"></a>
-
-## 简体中文
+语言：[简体中文](GOVERNANCE.md) · [English](GOVERNANCE.en.md)
 
 本项目采用轻量维护者治理。目标是保持课程清楚、示例可运行、公开表达克制可信。
 
@@ -27,11 +23,3 @@ Languages: [简体中文](#简体中文) · [English](#english)
 - README、release notes、公开更新：需要经过 editorial review。
 - 目录大改、许可变更、官方 upstream：走 RFC。
 - 商业合作或品牌联动：Project Lead + Communications Lead + Technical Lead 共同批准。
-
-<a id="english"></a>
-
-## English
-
-This project uses lightweight maintainer governance. The goal is to keep lessons clear, examples runnable, and public copy restrained and trustworthy.
-
-Small fixes use 48-hour lazy consensus. New lessons and templates need two maintainer reviews. README changes, release notes, and public updates need editorial review. Major structure, license, or upstream changes need an RFC.

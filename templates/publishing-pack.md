@@ -1,10 +1,6 @@
 # Publishing Pack Template
 
-Languages: [简体中文](#简体中文) · [English](#english)
-
-<a id="简体中文"></a>
-
-## 简体中文
+语言：[简体中文](publishing-pack.md) · [English](publishing-pack.en.md)
 
 用这个模板给每个教程视频配发布包。它的目标是让视频从“能看”变成“能发、能审、能复盘”。
 
@@ -80,49 +76,3 @@ Build a 30-second proof-driven tutorial video with HyperFrames
 - 评论区问了什么？
 - 哪个步骤不够清楚？
 - 下一个 lesson 应该补什么？
-
-<a id="english"></a>
-
-## English
-
-Use this template to turn a tutorial video into a publishable, reviewable, reusable package.
-
-## Title
-
-Chinese title:
-
-```text
-用 HyperFrames 把真实录屏做成 30 秒教程视频
-```
-
-English title:
-
-```text
-Build a 30-second proof-driven tutorial video with HyperFrames
-```
-
-## Opening
-
-The first 3 seconds must answer:
-
-- What is the result?
-- Why should viewers care?
-- Is the result real and reproducible?
-
-## Cover Direction
-
-- Show before/after.
-- Use one large result, not six tiny screenshots.
-- Avoid exaggerated words.
-- Keep platform safe areas clear.
-
-## Risk Review
-
-| Item | Status | Notes |
-|---|---|---|
-| No key/token/verification code | pass/fail | |
-| No sensitive account page | pass/fail | |
-| Media is public-safe | pass/fail | |
-| AI content labeled when needed | pass/fail | |
-| Claims backed by proof assets | pass/fail | |
-| SRT matches final cut | pass/fail | |

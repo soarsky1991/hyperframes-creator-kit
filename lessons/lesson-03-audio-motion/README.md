@@ -1,10 +1,6 @@
 # Lesson 03: 音频、动态文字卡和节奏
 
-Languages: [简体中文](#简体中文) · [English](#english)
-
-<a id="简体中文"></a>
-
-## 简体中文
+语言：[简体中文](README.md) · [English](README.en.md)
 
 目标：用 BGM、SFX 和动态文字卡提高观看体验，但不牺牲教学清晰度。
 
@@ -43,23 +39,3 @@ Languages: [简体中文](#简体中文) · [English](#english)
 ## 为什么重要
 
 声音和动效让教程更像“完成品”，但真正重要的是：信息更清楚，而不是更花。
-
-<a id="english"></a>
-
-## English
-
-Goal: use BGM, SFX, and motion cards to improve watchability without sacrificing teaching clarity.
-
-## Principles
-
-- Narration always comes first.
-- BGM supports emotion but never hides speech.
-- SFX marks actions and feedback only.
-- Motion cards explain parameters, errors, comparisons, or conclusions.
-
-## Acceptance Checklist
-
-- The video still works when muted.
-- Audio does not mask narration.
-- Every motion effect has a teaching job.
-- No decorative shot exists only to look flashy.

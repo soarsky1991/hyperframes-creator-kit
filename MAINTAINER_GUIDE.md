@@ -1,10 +1,6 @@
 # Maintainer Guide
 
-Languages: [简体中文](#简体中文) · [English](#english)
-
-<a id="简体中文"></a>
-
-## 简体中文
+语言：[简体中文](MAINTAINER_GUIDE.md) · [English](MAINTAINER_GUIDE.en.md)
 
 每周节奏：
 
@@ -19,16 +15,3 @@ Languages: [简体中文](#简体中文) · [English](#english)
 - 1 个 showcase demo。
 - 1 篇从素材到视频的长文。
 - 1 次 challenge 或 office hour。
-
-<a id="english"></a>
-
-## English
-
-Weekly rhythm:
-
-- Monday: issue triage and roadmap refresh.
-- Wednesday: PR review day.
-- Friday: demo day.
-- Weekend: cohort session, livestream, or office hour.
-
-Monthly outputs: release notes, one showcase demo, one long-form case writeup, and one challenge or office hour.

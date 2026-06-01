@@ -7,8 +7,9 @@
   "scripts": {
     "check:public-safety": "node scripts/check-public-safety.mjs",
     "check:public-language": "node scripts/check-public-language.mjs",
+    "check:i18n-pages": "node scripts/check-i18n-pages.mjs",
     "check:example": "cd examples/lesson-01-proof-driven-30s-video && npm run check",
-    "check": "npm run check:public-safety && npm run check:public-language"
+    "check": "npm run check:public-safety && npm run check:public-language && npm run check:i18n-pages"
   },
   "keywords": [
     "hyperframes",

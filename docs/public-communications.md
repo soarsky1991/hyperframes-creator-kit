@@ -1,10 +1,6 @@
 # Public Communications
 
-Languages: [简体中文](#简体中文) · [English](#english)
-
-<a id="简体中文"></a>
-
-## 简体中文
+语言：[简体中文](public-communications.md) · [English](public-communications.en.md)
 
 本项目把内部策划和对外表达分开。公开文档面向创作者、开发者和学习者，只说明项目能做什么、当前做到什么、如何验证、如何参与。
 
@@ -39,31 +35,3 @@ Languages: [简体中文](#简体中文) · [English](#english)
 - 是否把“还缺什么”写清楚。
 - 是否避免把内部讨论原样放进公开页面。
 - 是否通过 `npm run check:public-language`。
-
-<a id="english"></a>
-
-## English
-
-This project separates internal planning from public-facing copy. Public documentation should address creators, developers, and learners. It should explain what the project does, what is currently implemented, how to verify it, and how to contribute.
-
-## Principles
-
-- Explain the use case without inflated marketing claims.
-- State the current status without implying a finished full course.
-- Show verification paths, demos, checks, and limitations.
-- Keep AI visuals as explanatory material, not a substitute for real workflow proof.
-- Keep human review in the loop for privacy, copyright, platform rules, and subtitles.
-
-## Review Roles
-
-| Role | Review focus |
-|---|---|
-| Editorial Lead | README, lesson copy, and release notes are clear and restrained |
-| Proof Reviewer | Real screen recording, screenshot, output, or capture plan exists |
-| Technical Reviewer | HyperFrames examples and check commands run |
-| Risk Reviewer | Privacy, secret, account, copyright, and claim risks are reviewed |
-| Translation Reviewer | Chinese and English match without breaking commands or filenames |
-
-## Before Publishing
-
-Check that the copy treats readers as learners, states limitations clearly, avoids internal planning language, and passes `npm run check:public-language`.
