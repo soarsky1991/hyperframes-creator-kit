@@ -26,11 +26,11 @@
 | Curriculum | 12/20 | 有 5 课地图，但 lesson 02-05 仍偏草案 |
 | Case Library | 5/20 | 只有 Lesson 01 接近完整，缺真实案例库 |
 | Proof Asset | 6/15 | 已建立 proof-first 标准，但仓库还没有公开可复用素材 |
-| HyperFrames QA | 3/10 | 暂无可运行 mini composition 和 CI |
+| HyperFrames QA | 6/10 | 已有 Lesson 01 mini example 和 CI 配置，但还未覆盖全部课程 |
 | Growth Packaging | 8/10 | README、Start Here、贡献入口、分析文档已具备 |
 | Integrity | 9/10 | 明确不把 AI B-roll 冒充真实证据 |
 
-总分：**56/100**
+总分：**59/100**
 
 ## 判定
 
@@ -82,7 +82,7 @@
 ## 下一步建议
 
 1. 先公开 `v0.1`，把定位占住。
-2. 立刻补一个真正可跑的 Lesson 01 mini project。
+2. 给 Lesson 01 mini project 补真实公开录屏、README GIF 和截图。
 3. 再补 4 个案例，形成 `5 lessons in 5 days` 的传播节奏。
 4. 每个案例都配一个 issue，让别人能请求/补充自己的工作流。
 5. 等有 3 个真实案例后，再推 Reddit、HN 或英文技术社区。
