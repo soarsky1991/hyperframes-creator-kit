@@ -45,7 +45,7 @@ publish-pack/
 - 是否需要 AI 生成标注。
 - 是否导流过强或平台不友好。
 
-## 爆款因子
+## 为什么重要
 
 发布包让 repo 从“教程仓库”变成“创作者工作台”。这比单纯代码示例更容易被内容创作者收藏。
 
@@ -77,6 +77,6 @@ Check:
 - AI-generated content is labeled when needed.
 - The publish copy fits the target platform.
 
-## Viral Hook
+## Why It Matters
 
 A publishing pack turns this from a tutorial repo into a creator workbench.

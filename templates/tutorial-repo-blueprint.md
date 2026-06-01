@@ -25,7 +25,7 @@ Languages: <a href="#zh-cn">简体中文</a> · <a href="#english">English</a>
 
 - 把一次真实操作录屏变成 30-90 秒教程视频。
 - 自动生成字幕、步骤卡、动效提示和发布包。
-- 用委员会流程检查证据、版权、平台风险和可教学性。
+- 用质量审稿流程检查证据、版权、平台风险和可教学性。
 
 ### 5 分钟开始
 
@@ -75,7 +75,7 @@ lessons/
     assets/
       README.md
     publish-pack.md
-committees/
+reviews/
   proof-director.md
   tutorial-design.md
   integrity-review.md

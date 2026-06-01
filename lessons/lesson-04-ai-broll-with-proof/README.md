@@ -37,9 +37,9 @@ Languages: [简体中文](#简体中文) · [English](#english)
 - 需要标注 AI 生成时已经标注。
 - 没有使用未授权风格、人物或商标误导。
 
-## 爆款因子
+## 为什么重要
 
-现在 AI 视频泛滥，可信边界本身就是差异化。这个 lesson 的传播点是：**别让 AI B-roll 毁掉教程信任。**
+现在 AI 视频很多，可信边界本身就是差异化。这个 lesson 的重点是：**别让 AI B-roll 毁掉教程信任。**
 
 <a id="english"></a>
 
@@ -58,6 +58,6 @@ AI B-roll can explain, compare, or transition. It must not replace real workflow
 - AI-generated visuals are labeled when needed.
 - Real results use screen recordings, screenshots, or outputs.
 
-## Viral Hook
+## Why It Matters
 
 AI video is everywhere. Trust boundaries are the differentiator: do not let AI B-roll destroy tutorial credibility.

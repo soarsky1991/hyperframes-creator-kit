@@ -34,6 +34,6 @@ After this lesson, the learner can:
 - SRT:
 - Risk review:
 
-## Committee status
+## Review status
 
 `ready` / `needs_proof_asset` / `needs_check` / `needs_rewrite` / `draft_only`

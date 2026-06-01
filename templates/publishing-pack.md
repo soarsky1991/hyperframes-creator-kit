@@ -22,7 +22,7 @@ Languages: [简体中文](#简体中文) · [English](#english)
 Build a 30-second proof-driven tutorial video with HyperFrames
 ```
 
-## Hook
+## Opening
 
 前 3 秒要回答：
 
@@ -101,7 +101,7 @@ English title:
 Build a 30-second proof-driven tutorial video with HyperFrames
 ```
 
-## Hook
+## Opening
 
 The first 3 seconds must answer:
 
