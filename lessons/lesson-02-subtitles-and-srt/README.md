@@ -1,0 +1,66 @@
+# Lesson 02: 双轨字幕与 SRT 交付
+
+Languages: [简体中文](#简体中文) · [English](#english)
+
+<a id="简体中文"></a>
+
+## 简体中文
+
+目标：让教程视频在无声播放、跨语言传播和平台上传时都能被理解。
+
+## 你会做出什么
+
+- 视频内嵌字幕规则。
+- 外部 `.srt` 交付清单。
+- 字幕安全区检查。
+- 平台发布字幕说明。
+
+## 输入
+
+- 口播稿或 transcript。
+- 每句字幕的开始/结束时间。
+- 目标平台：X、Bilibili、小红书、视频号或 YouTube。
+
+## 步骤
+
+1. 把文案拆成 1-2 行短字幕。
+2. 标注每条字幕时间。
+3. 设计字幕安全区，避开 UI、进度条和平台按钮。
+4. 生成内嵌字幕。
+5. 生成外部 SRT。
+6. 用风险审稿检查敏感信息和夸张承诺。
+
+## 验收清单
+
+- 字幕能脱离声音理解。
+- 每条字幕不超过两行。
+- 字幕不遮挡关键操作。
+- SRT 编号连续。
+- 时间格式为 `HH:MM:SS,mmm --> HH:MM:SS,mmm`。
+- 文件名含语言码，例如 `lesson-01.zh-CN.srt`。
+
+## 爆款因子
+
+字幕是“可收藏”的一部分：观众能截图、摘录、复盘，外语观众也能看懂。
+
+<a id="english"></a>
+
+## English
+
+Goal: make the tutorial understandable during muted playback, cross-language sharing, and platform caption upload.
+
+## What You Build
+
+- Burned-in caption rules.
+- External `.srt` handoff checklist.
+- Subtitle safe-zone review.
+- Platform caption notes.
+
+## Acceptance Checklist
+
+- The lesson still makes sense without audio.
+- Captions use no more than two lines.
+- Captions do not cover the core operation.
+- SRT numbering is continuous.
+- Timestamp format is `HH:MM:SS,mmm --> HH:MM:SS,mmm`.
+- Filename includes a language code, such as `lesson-01.zh-CN.srt` or `lesson-01.en.srt`.
