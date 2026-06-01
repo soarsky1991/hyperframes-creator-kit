@@ -59,6 +59,14 @@
 ```bash
 git clone https://github.com/soarsky1991/hyperframes-creator-kit.git
 cd hyperframes-creator-kit
+npm run check:public-safety
+```
+
+运行最小 HyperFrames 示例：
+
+```bash
+cd examples/lesson-01-proof-driven-30s-video
+npm run check
 ```
 
 如果你在 Codex 或其他 agent 环境中使用：
@@ -114,5 +122,12 @@ Build your own AI video workflow from real proof assets.
 This is broader than a HyperFrames tutorial and more trustworthy than a generic AI video automation repo.
 
 Status: `v0.1 training seed`, not a finished full course.
+
+Run the minimal HyperFrames example:
+
+```bash
+cd examples/lesson-01-proof-driven-30s-video
+npm run check
+```
 
 Licenses: code, scripts, examples, templates, and skills use Apache-2.0; docs and curriculum text use CC BY 4.0.
