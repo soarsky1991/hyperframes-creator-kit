@@ -33,7 +33,7 @@ Goal: do not start from "make a flashy AI video." Start from "prove one real wor
    - 12-24s: explain with step cards.
    - 24-30s: show the output and next action.
 
-4. Run the committee self-check:
+4. Run the quality self-check:
 
    - Can viewers see the result in 3 seconds?
    - Does every teaching claim have proof?

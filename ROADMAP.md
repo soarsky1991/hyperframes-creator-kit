@@ -6,13 +6,14 @@ Languages: [简体中文](#简体中文) · [English](#english)
 
 ## 简体中文
 
-## v0.1 Training Seed
+## v0.1 Public Preview
 
 - Public README with clear promise.
 - Agent skill.
 - Five lesson shells.
-- Growth and packaging analysis.
-- Training repo committee evaluation.
+- Release readiness note.
+- Public communication guidelines.
+- Lesson 01 runnable example.
 - Publish pack template.
 
 ## v0.2 Case Library
@@ -36,17 +37,17 @@ Languages: [简体中文](#简体中文) · [English](#english)
 - Issue templates.
 - Case request board.
 - Contributor recognition.
-- Monthly best-case roundup.
-- Star history and roadmap updates.
+- Monthly case roundup.
+- Roadmap updates.
 
 <a id="english"></a>
 
 ## English
 
-The current repo is a public `v0.1 training seed`.
+The current repo is a public `v0.1 public preview`.
 
 Next milestones:
 
 - `v0.2`: 8-12 verified cases, at least 3 real screen recordings, and at least 3 finished publish packs.
 - `v0.3`: runnable HyperFrames examples, check/render instructions, and student exercise templates.
-- `v0.4`: issue templates, case requests, contributor recognition, and monthly showcase updates.
+- `v0.4`: issue templates, case requests, contributor recognition, and monthly case updates.

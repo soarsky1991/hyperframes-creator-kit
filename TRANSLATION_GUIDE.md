@@ -14,7 +14,7 @@ Languages: [简体中文](#简体中文) · [English](#english)
 2. Start Here。
 3. Lesson 01。
 4. Templates。
-5. Growth / launch materials。
+5. Public release materials。
 
 后续语言：日语、韩语、西语、葡语、法语、德语、印地语。
 

@@ -6,8 +6,9 @@
   "description": "Proof-driven AI tutorial video training repo for HyperFrames creators and agent builders.",
   "scripts": {
     "check:public-safety": "node scripts/check-public-safety.mjs",
+    "check:public-language": "node scripts/check-public-language.mjs",
     "check:example": "cd examples/lesson-01-proof-driven-30s-video && npm run check",
-    "check": "npm run check:public-safety"
+    "check": "npm run check:public-safety && npm run check:public-language"
   },
   "keywords": [
     "hyperframes",
