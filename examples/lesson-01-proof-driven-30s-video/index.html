@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lesson 01 Proof Driven Tutorial Demo</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        font-family: sans-serif;
+      }
+
+      body {
+        margin: 0;
+        background: #0b1020;
+      }
+
+      #lesson-01-demo {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background:
+          radial-gradient(circle at 22% 18%, rgba(20, 184, 166, 0.28), transparent 28%),
+          linear-gradient(135deg, #0b1020 0%, #111827 48%, #101827 100%);
+        color: #f8fafc;
+      }
+
+      .clip {
+        box-sizing: border-box;
+      }
+
+      .stage {
+        position: absolute;
+        inset: 0;
+        display: grid;
+        grid-template-columns: 1.1fr 0.9fr;
+        gap: 48px;
+        padding: 96px;
+      }
+
+      .hero-copy {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 28px;
+      }
+
+      .eyebrow {
+        width: max-content;
+        border: 1px solid rgba(45, 212, 191, 0.5);
+        padding: 10px 16px;
+        border-radius: 999px;
+        color: #5eead4;
+        font-size: 26px;
+        font-weight: 700;
+      }
+
+      .title {
+        max-width: 980px;
+        font-size: 92px;
+        line-height: 1.02;
+        font-weight: 850;
+        letter-spacing: 0;
+      }
+
+      .subtitle {
+        max-width: 820px;
+        color: #cbd5e1;
+        font-size: 34px;
+        line-height: 1.35;
+      }
+
+      .proof-board {
+        align-self: center;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        height: 760px;
+        border: 1px solid rgba(148, 163, 184, 0.32);
+        border-radius: 8px;
+        background: rgba(15, 23, 42, 0.88);
+        box-shadow: 0 32px 90px rgba(0, 0, 0, 0.38);
+        overflow: hidden;
+      }
+
+      .board-bar {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        height: 64px;
+        padding: 0 24px;
+        border-bottom: 1px solid rgba(148, 163, 184, 0.22);
+        color: #94a3b8;
+        font-size: 20px;
+      }
+
+      .dot {
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background: #f87171;
+      }
+
+      .dot:nth-child(2) {
+        background: #fbbf24;
+      }
+
+      .dot:nth-child(3) {
+        background: #34d399;
+      }
+
+      .terminal {
+        padding: 34px;
+        font-family: monospace;
+        font-size: 28px;
+        line-height: 1.55;
+        color: #d1fae5;
+      }
+
+      .terminal .muted {
+        color: #94a3b8;
+      }
+
+      .check-strip {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        border-top: 1px solid rgba(148, 163, 184, 0.22);
+      }
+
+      .check {
+        padding: 22px 24px;
+        font-size: 22px;
+        color: #dbeafe;
+        border-right: 1px solid rgba(148, 163, 184, 0.22);
+      }
+
+      .check:last-child {
+        border-right: 0;
+      }
+
+      .bottom-card {
+        position: absolute;
+        left: 96px;
+        right: 96px;
+        bottom: 72px;
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+        padding: 26px 32px;
+        border: 1px solid rgba(251, 191, 36, 0.42);
+        border-radius: 8px;
+        background: rgba(120, 53, 15, 0.72);
+        color: #fef3c7;
+        font-size: 28px;
+        line-height: 1.25;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="lesson-01-demo" data-composition-id="lesson-01-demo" data-start="0" data-duration="30" data-width="1920" data-height="1080">
+      <section id="stage" class="clip stage" data-start="0" data-duration="30" data-track-index="1">
+        <div class="hero-copy">
+          <div id="eyebrow" class="clip eyebrow" data-start="0" data-duration="30" data-track-index="2">Proof-first tutorial</div>
+          <h1 id="title" class="clip title" data-start="0" data-duration="30" data-track-index="3">
+            Build an AI tutorial video from real workflow evidence
+          </h1>
+          <p id="subtitle" class="clip subtitle" data-start="2" data-duration="26" data-track-index="4">
+            Start with a public-safe screen recording, then add timed cards, subtitles, checks, and a publish pack.
+          </p>
+        </div>
+
+        <div id="proof-board" class="clip proof-board" data-start="3" data-duration="24" data-track-index="5">
+          <div class="board-bar">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span>local proof capture</span>
+          </div>
+          <div class="terminal">
+            <div><span class="muted">$</span> npm run check</div>
+            <div>lint passed</div>
+            <div>validate passed</div>
+            <div>inspect passed</div>
+            <br />
+            <div><span class="muted">$</span> build publish pack</div>
+            <div>title.md + cover.md + subtitles.srt</div>
+          </div>
+          <div class="check-strip">
+            <div class="check">1. Proof asset</div>
+            <div class="check">2. Timed lesson</div>
+            <div class="check">3. Publish pack</div>
+          </div>
+        </div>
+      </section>
+
+      <div id="bottom-card" class="clip bottom-card" data-start="22" data-duration="8" data-track-index="6">
+        <strong>Replace this placeholder with real screen recordings before public launch.</strong>
+        <span>v0.1 training seed</span>
+      </div>
+
+      <script>
+        window.__timelines = window.__timelines || {};
+      </script>
+    </div>
+  </body>
+</html>
