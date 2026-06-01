@@ -1,13 +1,13 @@
 ---
 name: hyperframes-creator-kit
-description: Build proof-driven HyperFrames tutorial videos and open-source learning repos with real screen evidence, agent-run production gates, publishing packs, and GitHub tutorial-repo structure.
+description: Build proof-first HyperFrames tutorial videos and learning repos with real screen evidence, quality review, publishing packs, and public-safe wording.
 ---
 
 # HyperFrames Creator Kit
 
 Use this skill when the task is to turn a technical workflow into a teachable HyperFrames video or an open-source tutorial repo.
 
-The goal is not "make a pretty AI video." The goal is a lesson someone can trust, reproduce, bookmark, and share.
+The goal is not "make a pretty AI video." The goal is a lesson someone can trust, reproduce, and share with clear limitations.
 
 ## Required Inputs
 
@@ -21,35 +21,35 @@ Collect or infer:
 
 If proof assets are missing, mark the work `needs_proof_asset` and build a capture plan before making the final lesson.
 
-## Committee Flow
+## Review Workflow
 
-Run the smallest useful set of committees:
+Run the smallest useful set of reviews:
 
-1. Repo Positioning Committee
-   - Choose a searchable name and one-line promise.
-   - The first README screen must answer: who is this for, what can they build, how fast can they try it?
+1. Positioning Review
+   - Choose a clear name and one-line promise.
+   - The first README screen must answer: who is this for, what can they build, how can they try it?
 
-2. Tutorial Design Committee
+2. Tutorial Design Review
    - Convert the workflow into steps, checkpoints, and a final artifact.
-   - Prefer "build X from scratch" or "fix a real failure" over abstract feature tours.
+   - Prefer a concrete build or repair over an abstract feature tour.
 
-3. Proof Director
+3. Proof Review
    - Require visible evidence for each teaching claim.
    - Record terminal/browser moments, before/after output, and failure/fix points.
 
-4. HyperFrames Engineer
+4. HyperFrames Engineering Review
    - Compose with deterministic HTML, timed clips, subtitles, motion cards, and audio.
    - After editing `.html` compositions, run the project check command before calling it complete.
 
-5. Growth Analyst
-   - Compare against high-star tutorial patterns: roadmap, build-your-own, primer, university, for-beginners, project-based.
-   - Make the repo saveable: tables, indexes, lesson map, progress checklist, examples, contribution path.
+5. Public Communications Review
+   - Keep README, release notes, and platform copy clear, restrained, and reader-first.
+   - Do not paste internal planning language into public-facing docs.
 
-6. OSS Maintainer
+6. Maintainer Review
    - Confirm license, contribution notes, issue prompts, and small first contributions.
    - Keep the first version narrow enough for strangers to understand and improve.
 
-7. Integrity Reviewer
+7. Integrity Review
    - Remove unverifiable claims, hidden sponsorship wording, unsafe account details, and unlicensed assets.
    - Label AI-generated visuals when the target platform or audience needs that context.
 
@@ -71,13 +71,14 @@ The repo must include:
 - A license.
 - A small issue/contribution surface.
 - Evidence links or screenshots for any impressive claim.
+- Public communication guidelines.
 
 Avoid:
 
-- Huge "awesome list" scope on day one.
 - Placeholder videos that do not teach an operation.
 - Claims like "production ready" without a passing check or example.
 - Burying the quick start below theory.
+- Publishing internal strategy notes as learner-facing copy.
 
 ## Output Contract
 
@@ -87,8 +88,8 @@ For a new lesson or repo, produce:
 - Lesson plan with steps, checks, proof assets, and final artifact.
 - HyperFrames composition or capture plan.
 - Publishing pack: title, cover direction, SRT/subtitle needs, platform notes, risk review.
-- Committee score: `ready`, `needs_proof_asset`, `needs_check`, `needs_rewrite`, or `draft_only`.
+- Readiness status: `ready`, `needs_proof_asset`, `needs_check`, `needs_rewrite`, or `draft_only`.
 
-Read `research/github-tutorial-repo-patterns-2026-06-01.md` when deciding why a GitHub tutorial repo might spread.
+Read `docs/public-communications.md` before writing public-facing copy.
 
 Read `templates/tutorial-repo-blueprint.md` when creating the public README or repo structure.

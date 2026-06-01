@@ -13,7 +13,7 @@ P0 规则：主要教程和推广材料必须中英双语。
 1. README：中英双语。
 2. Start Here：中英双语。
 3. Lessons：每课中英双语。
-4. Growth/launch material：中英双语。
+4. Public release material：中英双语。
 5. Templates：至少标题、说明和验收标准中英双语。
 
 后续热门语言可以用 AI 直接翻译，但必须保留人工抽查：
