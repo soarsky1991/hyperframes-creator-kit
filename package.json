@@ -1,0 +1,20 @@
+{
+  "name": "hyperframes-creator-kit",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Proof-driven AI tutorial video training repo for HyperFrames creators and agent builders.",
+  "scripts": {
+    "check:public-safety": "node scripts/check-public-safety.mjs",
+    "check:example": "cd examples/lesson-01-proof-driven-30s-video && npm run check",
+    "check": "npm run check:public-safety"
+  },
+  "keywords": [
+    "hyperframes",
+    "ai-video",
+    "tutorial",
+    "agent-skills",
+    "creator-workflow"
+  ],
+  "license": "Apache-2.0"
+}

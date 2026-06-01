@@ -1,0 +1,35 @@
+name: Missing lesson request
+description: Request a new proof-driven HyperFrames tutorial case.
+title: "[lesson request]: "
+labels: ["lesson-request"]
+body:
+  - type: textarea
+    id: promise
+    attributes:
+      label: What should the learner be able to do?
+      description: One concrete result.
+    validations:
+      required: true
+  - type: textarea
+    id: proof
+    attributes:
+      label: What real proof asset can show it?
+      description: Screen recording, screenshot, terminal output, rendered video, repo diff, etc.
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Target platform
+      options:
+        - GitHub lesson
+        - X / Twitter
+        - Bilibili
+        - Xiaohongshu
+        - YouTube
+        - Other
+  - type: textarea
+    id: risk
+    attributes:
+      label: Risks or constraints
+      description: Privacy, copyright, AI labeling, paid APIs, account details.
