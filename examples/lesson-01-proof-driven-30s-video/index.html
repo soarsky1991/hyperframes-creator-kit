@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="data:," />
     <title>Lesson 01 Proof Driven Tutorial Demo</title>
     <style>
       :root {
@@ -200,6 +201,32 @@
 
       <script>
         window.__timelines = window.__timelines || {};
+        const staticTimeline = {
+          currentTime: 0,
+          duration: () => 30,
+          time(value) {
+            if (Number.isFinite(value)) this.currentTime = value;
+            return this.currentTime;
+          },
+          totalTime(value) {
+            return this.time(value);
+          },
+          seek(value) {
+            return this.time(value);
+          },
+          pause(value) {
+            if (Number.isFinite(value)) this.currentTime = value;
+            return this;
+          },
+          play() {
+            return this;
+          },
+          timeScale() {
+            return this;
+          },
+          getChildren: () => [],
+        };
+        window.__timelines["lesson-01-demo"] = staticTimeline;
       </script>
     </div>
   </body>
